@@ -27,7 +27,7 @@
 <body class="font-family: 'Open Sans';">
     
     <!-- navbar section -->
-    <header class="bg-mybgwhite md:px-20 p-5 sticky w-full">
+    <header class="bg-mybgwhite md:px-20 p-5 sticky top-0 w-full">
         <div class="flex container justify-between mx-auto">
             <div class="flex gap-12">
                 <a href="#">
@@ -48,7 +48,7 @@
                     <li class="font-semibold">Learn</li>
                     <li class="font-semibold">Log in</li>
                 </ul>
-                <button class="bg-mygreen px-5 py-2 rounded-md text-white font-semibold">Try for free</button>
+                <button class="bg-mygreen px-5 py-2 rounded-md text-white hover:bg-mydarkgreen font-semibold">Try for free</button>
 
             </div>
 
@@ -69,7 +69,7 @@
                 
                 <div class="flex gap-5 mb-6">
                     <input class="px-2 rounded-lg border border-2 border-black" type="text" name="" id="" placeholder="Enter your email address">
-                    <button class="bg-mygreen px-5 py-2 rounded-md text-white font-semibold">Try for free</button>
+                    <button class="bg-mygreen px-5 py-2 rounded-md text-white hover:bg-mydarkgreen font-semibold">Try for free</button>
                 </div>
                 <p class="text-[14px]">Try Shopify free for 14 days, no credit card required. By entering your email, you agree to receive marketing emails from Shopify.</p>
             </div>
@@ -89,8 +89,8 @@
                     <h1 class="text-white text-4xl mb-5">Bring your business online</h1>
                     <p class="text-white text-sm">Create an ecommerce website backed by powerful tools that help you find customers, drive sales, and manage your day-to-day.</p>
                 </div>
-                <div>
-                    <p class="text-white cursor-pointer font-semibold">Explore more examples</p>
+                <div class="flex">
+                    <p class="text-white cursor-pointer font-semibold">Explore more examples</p><span class="text-white ml-2">➜</span>
                 </div>
             </div>
 
@@ -181,6 +181,53 @@
                         </p>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- features section -->
+    <section class="bg-white py-6 sm:py-24">
+        <div class="container mx-auto">
+            <div class="text-center gap-y-2">
+                <h2 class="text-3xl font-bold">With you wherever you’re going</h2>
+                <p class="text-lg text-gray-600">One platform with all the ecommerce and point of sale features you need to start, run, and grow your business.</p>
+            </div>
+        </div>
+
+        <div class="flex md:flex-row flex-col mt-10 md:mt-20 justify-center lg:px-20 xl:px-40 items-center lg:gap-16">
+            <div class="md:w-1/2 w-full">
+                <img src="./assets/sidephoto2.png" alt="">
+            </div>
+
+            <div class="md:w-1/2 flex flex-col md:items-start items-center gap-5">
+                <p class="text-3xl font-semibold">Sell everywhere</p>
+                <p class="text-lg text-gray-500">Use one platform to sell products to anyone, anywhere—in person with Point of Sale and online through your website, social media, and online marketplaces.</p>
+                <h3 class="cursor-pointer font-semibold text-mygreen text-xl">Explore ways to sell<span class="text-mygreen ml-2">➜</span></h3>
+            </div>
+        </div>
+
+        <div class="flex md:flex-row flex-col-reverse mt-10 md:mt-20 justify-center lg:px-20 xl:px-40 items-center lg:gap-16">
+    
+            <div class="md:w-1/2 flex flex-col md:items-start items-center gap-5">
+                <p class="text-3xl font-semibold">Market your business</p>
+                <p class="text-lg text-gray-500">Take the guesswork out of marketing with built-in tools that help you create, execute, and analyze digital marketing campaigns.</p>
+                <h3 class="cursor-pointer font-semibold text-mygreen text-xl">Explore how to market your business<span class="text-mygreen ml-2">➜</span></h3>
+            </div>
+
+            <div class="md:w-1/2 w-full">
+                <img src="./assets/sidephoto3.webp" alt="">
+            </div>
+        </div>
+
+        <div class="flex md:flex-row flex-col mt-10 md:mt-20 justify-center lg:px-20 xl:px-40 items-center lg:gap-16">
+            <div class="md:w-1/2 w-full">
+                <img src="./assets/sidephoto4.png" alt="">
+            </div>
+
+            <div class="md:w-1/2 flex flex-col md:items-start items-center gap-5">
+                <p class="text-3xl font-semibold">Manage everything</p>
+                <p class="text-lg text-gray-500">Gain the insights you need to grow—use a single dashboard to manage orders, shipping, and payments anywhere you go.</p>
+                <h3 class="cursor-pointer font-semibold text-mygreen text-xl">Explore how to manage your business<span class="text-mygreen ml-2">➜</span></h3>
             </div>
         </div>
 
