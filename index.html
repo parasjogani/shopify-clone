@@ -29,36 +29,162 @@
     <!-- navbar section -->
     <header class="bg-mybgwhite md:px-20 p-5 sticky w-full">
         <div class="flex container justify-between mx-auto">
-            <div class="flex gap-5">
+            <div class="flex gap-12">
                 <a href="#">
                     <img class="w-[128px]" src="./assets/shopify-logo.png" alt="shopify logo">
                 </a>
-                <ul class="flex items-center space-x-5 hidden md:flex">
-                    <li>Start</li>
-                    <li>Sell</li>
-                    <li>Market</li>
-                    <li>Manage</li>
+                <ul class="flex items-center space-x-12 hidden lg:flex">
+                    <li class="font-semibold">Start</li>
+                    <li class="font-semibold">Sell</li>
+                    <li class="font-semibold">Market</li>
+                    <li class="font-semibold">Manage</li>
                 </ul>
 
             </div>
 
-            <div class="flex gap-5 hidden md:flex">
-                <ul class="flex items-center space-x-5">
-                    <li>Pricing</li>
-                    <li>Learn</li>
-                    <li>Log in</li>
+            <div class="flex gap-12 hidden lg:flex">
+                <ul class="flex items-center space-x-12">
+                    <li class="font-semibold">Pricing</li>
+                    <li class="font-semibold">Learn</li>
+                    <li class="font-semibold">Log in</li>
                 </ul>
-                <button class="bg-mygreen px-3 py-1 rounded-md text-white">Try for free</button>
+                <button class="bg-mygreen px-5 py-2 rounded-md text-white font-semibold">Try for free</button>
 
             </div>
 
-            <button class="p-2 md:hidden">
+            <button class="p-2 lg:hidden">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
                 </svg>
             </button>
         </div>
     </header>
+
+    <!-- introduction section -->
+    <section class="bg-mybgwhite">
+        <div class="flex md:flex-row flex-col">
+            <div class="flex flex-col items-center text-center md:items-start md:text-start md:ml-32 mt-24">
+                <h1 class="font-bold text-[48px] mb-6 text-mytextgreen">The easiest way to sell <br>online in India</h1>
+                <p class="text-md sm:text-lg text-gray-500 mb-6">Try one of the most powerful platforms on the market for free. No technical knowledge needed.</p>
+                
+                <div class="flex gap-5 mb-6">
+                    <input class="px-2 rounded-lg border border-2 border-black" type="text" name="" id="" placeholder="Enter your email address">
+                    <button class="bg-mygreen px-5 py-2 rounded-md text-white font-semibold">Try for free</button>
+                </div>
+                <p class="text-[14px]">Try Shopify free for 14 days, no credit card required. By entering your email, you agree to receive marketing emails from Shopify.</p>
+            </div>
+
+            <div>
+                <img src="./assets/sidephoto1.webp" alt="shopify photo">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- online business section -->
+    <section class="bg-mydarkgreen">
+        <div class="container p-8 mx-auto md:py-24 md:px-24">
+            <div class="flex flex-wrap justify-between mb-12">
+                <div>
+                    <h1 class="text-white text-4xl mb-5">Bring your business online</h1>
+                    <p class="text-white text-sm">Create an ecommerce website backed by powerful tools that help you find customers, drive sales, and manage your day-to-day.</p>
+                </div>
+                <div>
+                    <p class="text-white cursor-pointer font-semibold">Explore more examples</p>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-x-6 gap-y-6">
+                <div class="flex flex-col gap-4">
+                    <a href="#">
+                        <img src="./assets/busphoto1.jpg" alt="">
+                    </a>
+                    <div class="text-white">
+                        <a class="hover:underline underline-offset-2" href="#">FOOD & DRINK</a>
+                        <h2>Blue Tokai</h2>
+                    </div>
+
+                </div>
+
+                <div class="flex flex-col gap-4">
+                    <a href="#">
+                        <img src="./assets/busphoto2.webp" alt="">
+                    </a>
+                    <div class="text-white">
+                        <a class="hover:underline underline-offset-2" href="#">JEWELRY</a>
+                        <h2>Quirksmith</h2>
+                    </div>
+
+                </div>
+
+                <div class="flex flex-col gap-4">
+                    <a href="#">
+                        <img src="./assets/busphoto3.webp" alt="">
+                    </a>
+                    <div class="text-white">
+                        <a class="hover:underline underline-offset-2" href="#">ELECTRONICS</a>
+                        <h2>Crossbeats</h2>
+                    </div>
+
+                </div>
+
+                <div class="flex flex-col gap-4">
+                    <a href="#">
+                        <img src="./assets/busphoto4.webp" alt="">
+                    </a>
+                    <div class="text-white">
+                        <a class="hover:underline underline-offset-2" href="#">BEAUTY</a>
+                        <h2>Mcaffeine</h2>
+                    </div>
+
+                </div>
+
+                <div class="flex flex-col gap-4">
+                    <a href="#">
+                        <img src="./assets/busphoto5.webp" alt="">
+                    </a>
+                    <div class="text-white">
+                        <a class="hover:underline underline-offset-2" href="#">FASHION</a>
+                        <h2>Bunnai</h2>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="flex flex-col md:mt-16 mt-20">
+                <p1 class="text-white text-4xl md:mb-16 mb-16">Take the best path forward</p1>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-6">
+                    <div class="flex flex-col gap-3"> 
+                        <img class="w-[48px]" src="./assets/drag-and-drop.png" alt="">
+                        <p2 class="text-white font-semibold text-lg">Start an online business</p2>
+                        <p class="text-white">Create a business, whether you’ve got a fresh idea or are looking for a new way to make money.</p>
+                    </div>
+
+                    <div class="flex flex-col gap-3"> 
+                        <img class="w-[48px]" src="./assets/icons8-online-shopping-48.png" alt="">
+                        <p2 class="text-white font-semibold text-lg">Move your business online</p2>
+                        <p class="text-white">Turn your retail store into an online store and keep serving customers without missing a beat.</p>
+                    </div>
+
+                    <div class="flex flex-col gap-3"> 
+                        <img class="w-[48px]" src="./assets/sync.png" alt="">
+                        <p2 class="text-white font-semibold text-lg">Switch to Shopify</p2>
+                        <p class="text-white">Bring your business to Shopify, no matter which ecommerce platform you’re currently using.</p>
+                    </div>
+
+                    <div class="flex flex-col gap-3"> 
+                        <img class="w-[48px]" src="./assets/icons8-users-48.png" alt="">
+                        <p2 class="text-white font-semibold text-lg">Hire a Shopify expert</p2>
+                        <p class="text-white">Get set up with the help of a trusted freelancer or agency from the Shopify Experts Marketplace.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
 
 </body>
 </html>
