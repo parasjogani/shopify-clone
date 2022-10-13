@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet"> 
+    <title>Shopify Clone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config ={
+            theme:{
+                extend: { 
+                colors: {             
+                    mybgwhite :"#fbf7ed",
+                    mygreen :"#008060",
+                    mytextgreen : "#004c3f",
+                    mydarkgreen : "#004c3f"          
+                },
+                
+                } 
+            }
+        }
+    </script>
+</head>
+<body class="font-family: 'Open Sans';">
+    
+    <!-- navbar section -->
+    <header class="bg-mybgwhite md:px-20 p-5 sticky w-full">
+        <div class="flex container justify-between mx-auto">
+            <div class="flex gap-5">
+                <a href="#">
+                    <img class="w-[128px]" src="./assets/shopify-logo.png" alt="shopify logo">
+                </a>
+                <ul class="flex items-center space-x-5 hidden md:flex">
+                    <li>Start</li>
+                    <li>Sell</li>
+                    <li>Market</li>
+                    <li>Manage</li>
+                </ul>
+
+            </div>
+
+            <div class="flex gap-5 hidden md:flex">
+                <ul class="flex items-center space-x-5">
+                    <li>Pricing</li>
+                    <li>Learn</li>
+                    <li>Log in</li>
+                </ul>
+                <button class="bg-mygreen px-3 py-1 rounded-md text-white">Try for free</button>
+
+            </div>
+
+            <button class="p-2 md:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+</body>
+</html>
